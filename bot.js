@@ -3,7 +3,7 @@ const { createClient } = require('@supabase/supabase-js');
 
 // 1. НАСТРОЙКИ (замените на свои данные)
 const BOT_TOKEN = '9126243896:AAGerRK3KuPINn2q6kHDAGZ7WEbn3jpV4Ts'; // Токен от @BotFather
-const SUPABASE_URL = 'sb_publishable_vfIwSW5Nf6jpH5MuB7fPrA_o5RJz_BD';       // URL из Supabase (Settings -> API)
+const SUPABASE_URL = 'https://csecfwwtkyliffdakjqa.supabase.co';       // URL из Supabase (Settings -> API)
 const SUPABASE_ANON_KEY = 'sb_secret_SsDlxzGYopaDkHa0aCeMCA_pYuSsPLk'; // Ключ из Supabase
 
 const bot = new Telegraf(BOT_TOKEN);
