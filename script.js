@@ -1,6 +1,6 @@
 // НАСТРОЙКИ SUPABASE (замените на свои данные из личного кабинета Supabase)
 const SUPABASE_URL = 'https://csecfwwtkylfifdakjqa.supabase.co';
-const SUPABASE_ANON_KEY = 'sb_secret_SsDlxzGYopaDkHa0aCeMCA_pYuSsPLk';
+const SUPABASE_ANON_KEY = 'sb_publishable_vfIwSW5Nf6jpH5MuB7fPrA_o5RJz_BD';
 
 const supabaseClient = supabase.createClient(SUPABASE_URL, SUPABASE_ANON_KEY);
 
