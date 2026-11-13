@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Сервис расписания</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Подключаем библиотеку Supabase через CDN -->
+    <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+</head>
+<body>
+
+    <div class="container">
+        <h1>🎓 Сервис расписания</h1>
+
+        <!-- Выбор группы -->
+        <div class="control-group">
+            <label for="groupSelect">Выберите группу:</label>
+            <select id="groupSelect">
+                <option value="">Загрузка групп...</option>
+            </select>
+        </div>
+
+        <!-- Кнопки команд -->
+        <div class="buttons">
+            <button id="btnToday">📅 На сегодня (/today)</button>
+            <button id="btnNow">⏰ Что сейчас (/now)</button>
+        </div>
+
+        <!-- Блок вывода результатов -->
+        <div class="output-box">
+            <h3>Результат:</h3>
+            <div id="resultContent">Выберите группу и нажмите нужную команду.</div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
